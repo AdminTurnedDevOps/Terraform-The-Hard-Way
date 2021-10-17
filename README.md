@@ -7,3 +7,5 @@ With this project, you'll have the chance to not only help yourself as an engine
 Learn about how to create real-world solutions for setting up an environment that is using DevOps technologies and practices for deploying apps and cloud services/cloud infrastructure to AWS.
 
 The repository contains free labs, documentation, diagrams, and docs for setting up an entire workflow and DevOps environment from a real-world perspective in AWS.
+
+![](images/terraform.png)
