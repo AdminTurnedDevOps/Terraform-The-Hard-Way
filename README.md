@@ -1,6 +1,8 @@
 # Terraform-The-Hard-Way
 
-This tutorial contains a full explanation of how to use Terraform in today's world. Although there may be a lot of content out there for Terraform, it doesn't teach you how to think about Terraform with a developer hat on. I promise you that thinking about Terraform as a developer, even if you aren't one, will **100 percent** put you ahead of many engineers out there. 
+This tutorial contains a full explanation of how to use Terraform in today's world. Although there may be a lot of content out there for Terraform, it doesn't teach you how to think about Terraform with a developer hat on. I promise you that thinking about Terraform as a developer, even if you aren't one, will **100 percent** put you ahead of many engineers out there.
+
+You don't need to be a computer science major or a software engineer. You'll simply need to tweak your mindset a bit, very-much like we all do in the tech space as it changes.
 
 With this project, you'll have the chance to not only help yourself as an engineer, but make a huge difference from an infrastructure and systems development perspective for all organizations.
 
