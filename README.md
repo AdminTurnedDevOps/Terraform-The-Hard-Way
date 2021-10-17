@@ -8,4 +8,4 @@ Learn about how to create real-world solutions for setting up an environment tha
 
 The repository contains free labs, documentation, diagrams, and docs for setting up an entire workflow and DevOps environment from a real-world perspective in AWS.
 
-![](images/terraform.png)
+![](images/terraform.jpg)
