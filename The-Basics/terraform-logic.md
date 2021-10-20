@@ -43,3 +43,10 @@ The logical operators expect bool values and produce bool values as results.
 a || b returns true if either a or b is true, or false if both are false.
 a && b returns true if both a and b are true, or false if either one is false.
 !a returns true if a is false, and false if a is true.
+
+## More Information
+For more info, check out the following links:
+- https://www.terraform.io/docs/language/expressions/operators.html
+- https://www.terraform.io/docs/language/expressions/for.html
+- https://www.terraform.io/docs/language/expressions/types.html
+- https://www.hashicorp.com/blog/hashicorp-terraform-0-12-preview-for-and-for-each
