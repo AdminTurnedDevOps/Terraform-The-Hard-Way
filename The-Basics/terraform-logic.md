@@ -14,6 +14,18 @@ output "instances_by_availability_zone" {
 }
 ```
 
+## Comparison (if statements)
+
+A conditional expression (`if` statement in another languages) uses the value of a bool expression to select one of two values.
+
+```
+var.a != "" ? var.a : "default-a"
+```
+
+```
+condition ? true_val : false_val
+```
+
 ## Operators
 Operators in Terraform are anything from "add these two values together" to "greater than, less than, or equal to". When thinking about operators, think mathematical operators.
 
