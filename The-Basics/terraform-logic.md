@@ -14,7 +14,7 @@ output "instances_by_availability_zone" {
 }
 ```
 
-## Comparison (if statements)
+## Comparison/Conditionals (if statements)
 
 A conditional expression (`if` statement in another languages) uses the value of a bool expression to select one of two values.
 
