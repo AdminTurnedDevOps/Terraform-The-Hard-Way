@@ -34,4 +34,4 @@ When you do an `import` of a SDK or module, you're importing a module. It's the 
 
 
 
-To learn more about modules, check out week 2 of my Terraform For all course on YouTube where we talk about modules and why they're used. You can find it ![here](https://www.youtube.com/watch?v=PR3RnimYd2k&t=1s)
+To learn more about modules, check out week 2 of my Terraform For all course on YouTube where we talk about modules and why they're used. You can find it [here](https://www.youtube.com/watch?v=PR3RnimYd2k&t=1s)
