@@ -37,9 +37,10 @@ The second scenario is maybe you've used Terraform a little bit for your work, o
 
 ## Labs
 1. The Basics - Getting started with Terraform and understanding the concepts. Although this may be a lot of theory, it's super crucial for anyone that wants to be a true master at Terraform in the Infrastructure-as-Code space.
-2. Environment - When you're getting started with Terraform, you'll need to ensure that you have a proper environment configured and ready for your success.
-3. Modules - When you're writing Terraform code and storing it in a directory, you're creating a Module. Learn all about how to construct proper modules.
-4. Providers - Learn about how providers are configured and how you can start creating your very own provider!
-5. Terraform Cloud - one thing you'll learn about is Terraform State and how to manage it. Terraform Cloud can help with that amongst a ton of other features.
-6. First Project - Build your first Terraform project by using GitHub to store your source control and AWS to deploy services
-7. Game Time: Build A Real World Scenario - You've done it! You completed the labs around what you need to know to be a Terraform expert. Now it's time to build a real-world scenario that you can use in your portfolio, resume, or to show off to your friends.
+2. Terraform Logic - Although HCL's logic like `if` statements and `for` loops are much different from other languages, they still exist. This section is to explain all about TF logic.
+4. Environment - When you're getting started with Terraform, you'll need to ensure that you have a proper environment configured and ready for your success.
+5. Modules - When you're writing Terraform code and storing it in a directory, you're creating a Module. Learn all about how to construct proper modules.
+6. Providers - Learn about how providers are configured and how you can start creating your very own provider!
+7. Terraform Cloud - one thing you'll learn about is Terraform State and how to manage it. Terraform Cloud can help with that amongst a ton of other features.
+8. First Project - Build your first Terraform project by using GitHub to store your source control and AWS to deploy services
+9. Game Time: Build A Real World Scenario - You've done it! You completed the labs around what you need to know to be a Terraform expert. Now it's time to build a real-world scenario that you can use in your portfolio, resume, or to show off to your friends.
