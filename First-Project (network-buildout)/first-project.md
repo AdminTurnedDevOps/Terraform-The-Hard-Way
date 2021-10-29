@@ -9,7 +9,6 @@ Inside of this module, you'll find:
 This README breaks down the `main.tf` file
 
 ## Backend and Providers
-
 First things first, you need to set up the backend and providers. The backend and provider blocks will use an S3 bucket to store the `tfstate` and ensure that the required providers are set.
 
 ```
@@ -32,6 +31,9 @@ provider "aws" {
 ```
 
 ## VPC
+The VPC is the network itself. Because it's like it's own virtual datacenter, the most important thing it contains is the creation of the CIDR block. In this case, we're going with a `192.168.x.x` CIDR with a `/16` subnet range.
+
+Notice how we're specifying the `tags` block, which is important for any environment. Without tags, you don't know which resources belong to what environment.
 
 ```
 resource "aws_vpc" "terraformhardway-platform" {
@@ -45,8 +47,10 @@ resource "aws_vpc" "terraformhardway-platform" {
   }
 }
 ```
-
 ## Internet Gateway
+An internet gateway is crucial for any VPC because it allows communication between your VPC and the internet.
+
+You'll notice a new block, the `depends_on` block. What this is saying is that to create the `aws_internet_gateway_ resource, the VPC MUST be created first. Why? Because an internet gateway cannot exist without a VPC to attach it to.
 
 ```
 resource "aws_internet_gateway" "terraformhardway-platform-vpc-gateway" {
@@ -65,6 +69,9 @@ resource "aws_internet_gateway" "terraformhardway-platform-vpc-gateway" {
 ```
 
 ## Route
+The route table is created to determine where network traffic from a subnet or gateway is directed. Notice how we're calling upon the `gateway_id` from the internet gateway resource that we're creating.
+
+The `destination_cidr_block` is `0.0.0.0`, which means out to the world - anywhere.
 
 ```
 resource "aws_route" "r" {
@@ -116,6 +123,7 @@ resource "aws_subnet" "publicsubnet" {
 ```
 
 ## EIP
+The Elastic IP is to ensure that there is one associated to the VPC for resources that need it.
 
 ```
 resource "aws_eip" "nat_eip_a" {
@@ -124,6 +132,11 @@ resource "aws_eip" "nat_eip_a" {
 ```
 
 ## NAT Gateway and Route Table
+The NAT gateway is used for instances in a private subnet to connect to services outside of the VPC. The biggest key differentiator here is that external resources (outside of AWS and outside of the VPC) cannot initiate a connection with those instances.
+
+The route table is then created and associated with the VPC.
+
+Once the route table is created, an association is created to tie the private IP to the route table so it can access the external resources.
 
 ```
 resource "aws_nat_gateway" "nat_a" {
@@ -159,6 +172,9 @@ resource "aws_route_table_association" "privateroute_one" {
 ```
 
 ## Outputs
+Once all of the resources are created, you may want to see some terminal output about the resources. Things like the resource IDs and ARN's, for example. 
+
+That's where the `output` block comes into play.
 
 ```
 output "vpc_security_group_id" {
