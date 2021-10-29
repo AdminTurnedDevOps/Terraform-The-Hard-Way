@@ -6,7 +6,7 @@ By definition, they are containers (a directory) for multiple resources (terrafo
 
 A module consists of a collection of Terraform files, as shown in the screenshot below.
 
-![](images/module_dir.jpg)
+![](images/terraform.jpg)
 
 The "module" in the screenshot is the directory called **sample-module**.
 
