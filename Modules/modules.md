@@ -2,7 +2,7 @@
 
 A module is simply a directory with Terraform code in it. 
 
-By definition, they are containers (a directory) for multiple resources (terraform files like `terraform.tf`) that are used together.
+By definition, they are containers (a directory) for multiple resources (terraform files like `main.tf`) that are used together.
 
 A module consists of a collection of Terraform files, as shown in the screenshot below.
 
@@ -24,7 +24,7 @@ Then, there's another module called **s3-bucket**
 
 ![](../images/s3-module.jpg)
 
-If the `terraform.tf` file inside of the **sample-module** module called upon (use Terraform resources from) the **s3-bucket** module, that means that the **s3-bucket** module is the child module
+If the `main.tf` file inside of the **sample-module** module called upon (use Terraform resources from) the **s3-bucket** module, that means that the **s3-bucket** module is the child module
 
 ## Another Module Reference
 

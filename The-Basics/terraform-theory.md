@@ -2,7 +2,7 @@
 
 If you'd prefer to learn a few of the basics via YouTube, check out the following link:
 
-![Terraform Basics](https://www.youtube.com/watch?v=wybFGCultsk&list=PL8iDDHqmj1oW_JYcEfM21XI0cFnp5b9dP&index=1)
+[Terraform Basics](https://www.youtube.com/watch?v=wybFGCultsk&list=PL8iDDHqmj1oW_JYcEfM21XI0cFnp5b9dP&index=1)
 
 ## What Is Terraform?
 Terraform is an open-source infrastructure as code software tool created by HashiCorp. Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language (HCL), or optionally
