@@ -53,3 +53,4 @@ The second scenario is maybe you've used Terraform a little bit for your work, o
 7. First Project - Build your first Terraform project by using GitHub to store your source control and AWS to deploy services
     - [Build A Network On AWS](https://github.com/AdminTurnedDevOps/Terraform-The-Hard-Way/tree/main/First-Project%20(network-buildout))
 8. Game Time: Build A Real World Scenario - You've done it! You completed the labs around what you need to know to be a Terraform expert. Now it's time to build a real-world scenario that you can use in your portfolio, resume, or to show off to your friends.
+    - [Build An API With Terraform](https://github.com/AdminTurnedDevOps/Terraform-The-Hard-Way/blob/main/Game-Time-Build-A-Real-World-Scenario/read.md)
