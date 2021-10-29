@@ -49,5 +49,7 @@ The second scenario is maybe you've used Terraform a little bit for your work, o
 5. Providers - Learn about how providers are configured and how you can start creating your very own provider!
     - [Understanding Terraform Providers](https://github.com/AdminTurnedDevOps/Terraform-The-Hard-Way/blob/main/Providers/providers.md)
 6. Terraform Cloud - one thing you'll learn about is Terraform State and how to manage it. Terraform Cloud can help with that amongst a ton of other features.
+    - [Learn Terraform Cloud](https://github.com/AdminTurnedDevOps/Terraform-The-Hard-Way/blob/main/Terraform-Cloud/tfcloud.md)
 7. First Project - Build your first Terraform project by using GitHub to store your source control and AWS to deploy services
+    - [Build A Network On AWS](https://github.com/AdminTurnedDevOps/Terraform-The-Hard-Way/tree/main/First-Project%20(network-buildout))
 8. Game Time: Build A Real World Scenario - You've done it! You completed the labs around what you need to know to be a Terraform expert. Now it's time to build a real-world scenario that you can use in your portfolio, resume, or to show off to your friends.
