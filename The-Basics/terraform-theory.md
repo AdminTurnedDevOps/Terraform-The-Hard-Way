@@ -30,5 +30,5 @@ This low-level syntax of the Terraform language is defined in terms of a syntax 
 - Init: Initialize a Terraform module to be ready to create/replace/update/delete resources. `init` also downloads the Provider and stores it in the Terraform module.
 - Plan: Determines what needs to be created/replaced/updated/deleted to move to the desired state.
 - Apply: Creates/replaces/updates/deletes the resources via Terraform
-- Destry: Deletes the resources in the Terrafor module
+- Destroy: Deletes the resources in the Terraform module
 - Resources: A block of code to create/replace/update/delete services, servers, etc.. For example, an S3 bucket.
